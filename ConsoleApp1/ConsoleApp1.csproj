@@ -6,7 +6,20 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
+    <PropertyGroup>
+        <AssemblyName>USB-print</AssemblyName>
+        <AssemblyTitle>USB打印工具</AssemblyTitle>
+        <AssemblyDescription>用于USB打印机检测和标签打印</AssemblyDescription>
+        <Company>chrelyonly</Company>
+        <Product>USB打印工具C#重新编译</Product>
+        <Authors>chrelyonly</Authors>
+        <Version>1.0.0.0</Version>
+        <FileVersion>1.0.0.0</FileVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ApplicationIcon>../logo.ico</ApplicationIcon>
+    </PropertyGroup>
     <ItemGroup>
       <Reference Include="libUsbContorl">
         <HintPath>libUsbContorl.dll</HintPath>
