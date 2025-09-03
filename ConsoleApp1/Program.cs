@@ -33,7 +33,7 @@ DENSITY 8
 SPEED 4
 SET TEAR ON
 REFERENCE 0,0
-TEXT 240,24,""TSS24.BF2"",0,1,1,""i达小屋-华兴新居店""
+TEXT 240,24,""TSS24.BF2"",0,1,1,""雪飘人间-测试门店""
 
 TEXT 118,70,""TSS24.BF2"",0,1,1,""雕牌清新柠檬洗衣液 2kg""
 
