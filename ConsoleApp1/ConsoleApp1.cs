@@ -6,7 +6,7 @@ public class ConsoleApp1
     {
         if (args.Length == 0)
         {
-            Console.WriteLine("通过命令行传输参数\n第一个参数为功能类型: \n 1.检查USB并识别打印机\n 2.打印标签, 其他-退出 ,(如果传2那么填写价签信息)\n 例如: 1 或 2 门店名称 商品名称 单位 价格 条码");
+            Console.WriteLine("作者: chrelyonly\n语言: C#\n通过命令行传输参数\n第一个参数为功能类型: \n 1.检查USB并识别打印机\n 2.打印标签, 其他-退出 ,(如果传2那么填写价签信息)\n 例如: 1 或 2 门店名称 商品名称 单位 价格 条码");
             return;
         }
         string command = args[0];
