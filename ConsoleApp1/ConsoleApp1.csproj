@@ -20,6 +20,18 @@
     <PropertyGroup>
         <ApplicationIcon>../logo.ico</ApplicationIcon>
     </PropertyGroup>
+
+    <!-- NativeAOT 配置 -->
+    <PropertyGroup>
+        <PublishAot>true</PublishAot> <!-- 开启 NativeAOT -->
+        <SelfContained>true</SelfContained> <!-- 打包运行时 -->
+<!--        <PublishSingleFile>true</PublishSingleFile> &lt;!&ndash; 单文件输出 &ndash;&gt;-->
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier> <!-- 指定目标平台 -->
+        <StripSymbols>true</StripSymbols> <!-- 去掉符号表，减少反汇编信息 -->
+        <PublishTrimmed>true</PublishTrimmed> <!-- 启用修剪，减小体积 -->
+    </PropertyGroup>
+    
+    
     <ItemGroup>
       <Reference Include="libUsbContorl">
         <HintPath>libUsbContorl.dll</HintPath>

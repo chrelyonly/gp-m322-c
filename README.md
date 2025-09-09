@@ -4,7 +4,7 @@
   </a>
 </p>
 打包命令  dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=true 
-
+dotnet publish -c Release -r win-x64 --self-contained true
 ### 用C#调用dll进行打印 
 
 ### 打包dll通过node调用打印
